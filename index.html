@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ORVchess+</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="images/logo.png" class="logo">
+
+    <h1>ORVchess+</h1>
+
+    <p class="version">
+    ORVchess+ v0.3.0 Alpha
+    </p>
+
+    <div id="status"></div>
+
+    <button onclick="rerollShop()">
+        새로고침
+    </button>
+
+    <button onclick="buyXP()">
+        <img src="images/xp.png" class="xp">
+    </button>
+
+    <button onclick="battle()">
+        ⚔️
+    </button>
+
+    <h2>도깨비 보따리</h2>
+    <div id="shop"></div>
+
+    <h2>전투 배치</h2>
+    <div id="board"></div>
+
+    <h2>인벤토리</h2>
+    <div id="inventory"></div>
+
+    <p id="message"></p>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
